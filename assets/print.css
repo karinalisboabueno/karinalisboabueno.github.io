@@ -1,0 +1,13 @@
+@media print {
+    
+@page { margin: 0cm }
+
+.row{
+    break-inside: avoid-page;
+}
+
+.row:eq(2){
+    color:red
+}
+
+}
